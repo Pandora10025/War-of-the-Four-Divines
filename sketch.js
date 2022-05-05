@@ -11,6 +11,8 @@ function preload() {
   introBot.loadFile("intro.txt").then(botLoaded).catch(error);
   characterBot.loadFile("character.txt").then(botLoaded).catch(error);
   storyBot.loadFile("story.txt").then(botLoaded).catch(error);
+  
+  bg = loadImage("bg.jpg");
 
 }
 
@@ -33,7 +35,7 @@ function setup() {
 
   nextButton = createButton("Next");
   nextButton.mousePressed(changePage);
-  nextButton.position()
+  nextButton.position(width*11/12, height*11/12)
 
 
   inputField = createInput();
@@ -48,10 +50,19 @@ function setup() {
 }
 
 function mainGame() {
-  background("bg.jpg");
+  background(bg);
 
-  // textAlign(CENTER)
-  // text("This is the main page", width / 2, height / 2)
+   textAlign(CENTER)
+   textSize(60)
+   fill("White")
+   stroke(203,195,250)
+   strokeWeight(5)
+   text("Welcome to The War of the Four Divines", width / 2, height*1/3)
+
+   textSize(24)
+   fill("Black")
+   strokeWeight(3)
+   text("(click 'Next' on the bottom right to continue.)", width/2, height*2/5)
 }
 
 function introPage() {
@@ -97,6 +108,7 @@ function displayResponses(){
   textAlign(LEFT)
  textSize(18);
  rectMode(CENTER)
+ strokeWeight(0)
 // for (let i = 0; i < response.length; i++) {
   text(
     response[indexResponses],
