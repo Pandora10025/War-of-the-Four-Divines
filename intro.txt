@@ -1,0 +1,44 @@
+! version = 2.0
+
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
++ start
+- Welcome to War of the Four Divines. Where you will play a member of one of the Divine Sects in the fantasy world of Asteria. Before we begin lets go over some instructions. (Type 'continue', 'next', or 'ok') {topic=instructions}
+
+<topic 
+
+>topic instructions 
++ [*]continue|next|okay|ok[*]
+- Firstly, moving on with the story will always be triggered by the 'continue' or 'next' key words.\n
+^ Not to be confused with the 'Next Page' button on the bottom right of your screen.\n
+^I'll let you know when to press that, otherwise don't touch! (Type anything to continue...)
+
++ *
+- Secondly, as the purpose of this adventure is roleplay, the input field will also act as your in character dialouge.\n
+^ Some responses will be guided by tigger words but others will be all your own.\n 
+^I will alway provide trigger words if the first is the case otherwise let your mind be your guide. (Let's see if you understood what I meant...)
+
++ * 
+- Lastly as this is only a demo the character route and story has already been chosen for you.\n 
+^ So read through the lore and charcter background; and get read to immerse your imagination. {topic=lore} 
+
+<topic
+
+>topic lore
++ *
+- Click the 'Next Page' button.
