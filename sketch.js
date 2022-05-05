@@ -48,7 +48,7 @@ function setup() {
 }
 
 function mainGame() {
-  background("Green");
+  background("bg.jpg");
 
   // textAlign(CENTER)
   // text("This is the main page", width / 2, height / 2)
