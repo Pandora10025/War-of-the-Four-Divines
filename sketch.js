@@ -55,7 +55,7 @@ function mainGame() {
 }
 
 function introPage() {
-  background("Pink")
+  background(255,182,193)
   // textAlign(CENTER)
   // text("This is the intro page", width / 2, height / 2)
 
@@ -68,7 +68,7 @@ function introPage() {
 }
 
 function characterPage() {
-  background("Red")
+  background(203,195,227)
   // textAlign(CENTER)
   // text("This is the character page", width / 2, height / 2)
 
@@ -78,7 +78,7 @@ function characterPage() {
 }
 
 function storyPage() {
-  background("blue")
+  background(162,228,184)
   // textAlign(CENTER)
   // text("This is the story page", width / 2, height / 2)
 
